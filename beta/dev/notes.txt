@@ -1,0 +1,64 @@
+
+15APR18
+
+Google Maps API Key: AIzaSyAUJOBriuBRTv_ZcDomoFkwG5SG07Ll_7U
+
+	mrn.css, bootstrap.bundle.min.css, fonts
+	 |
+	index.php -- mysql -- ../../mrn_db_info.php
+	 |			 | cards
+	 |  		 | resources
+	 |
+	mrn.js -- parking.php -- mrn.php
+	 |		  | cityParking	-- cityofmadison.com
+	 |		  | campusParking -- transportation.wisc.edu
+	 |	   
+	 |------- cameras.cityofmadison.com
+	 |------- 511wi.gov
+
+
+April 9, 2018 list of cameras
+---------------------------------------
+459264	Broadway &  Monona Dr
+459520	Johnson St & Park St
+459776	Johnson St & Bassett St
+460032	University Ave & Babcock Dr
+460288	University Ave & Park St
+460544	Fish Hatchery & Badger Rd
+460800	Beltline & Mineral Point West
+461056	Mineral Pt Rd & Whitney Way
+461312	Whitney Way & Odana Rd
+461568	University Ave & Midvale Blvd
+461824	Mineral Point and Gammon
+462080	University Ave & Shorewood Blvd
+462336	University Ave & Farley Ave
+462592	University Ave & Lake St
+462848	W Washington & Fairchild St
+463104	John Nolen & Broom St
+463360	Beltline & Old Sauk West
+463616	Beltline & Old Sauk East
+464128	Old Sauk & High Point
+464384	Old Sauk & Pleasant View
+464640	Old Sauk & Excelsior
+465152	Broadway & Frazier Ave
+465408	Broadway & Copps Ave
+466944	John Nolen & Blair & Wilson
+468224	Old Sauk & Junction Rd
+468480	W. Washington & Proudfit
+470272	University Ave & Whitney Way
+470528	Johnson St & Wisconsin Ave
+471808	Packers & International Lane
+472064	Fish Hatchery Rd & Mckee Rd
+472320	Mckee Rd & Seminole Hwy
+472576	John Nolen & Rimrock Rd
+472832	John Nolen & Olin
+473088	Park St & Fish Hatchery Rd
+473344	Park St. & Olin
+476672	Johnson St & Butler & Hamilton
+476928	Johnson St & Blair St
+477440	Johnson St & Baldwin St
+477952	E Washington & First St
+478464	American Family Pkwy & Eastpark
+478976	Packers & Commercial Ave
+479232	Mineral Point Rd & Midvale Blvd
+480512	University Ave & Segoe Rd
