@@ -1,291 +1,295 @@
-.progress{
-	height: 3em;
-	width: 100%;
-	margin-bottom:6px;
-}
-
-.featherlight-inner, .featherlight-content, .featherlight{
-	z-index:5; !important
-}
-
-#map {
-  height: 600px;
-}
-
-hr {
-	border-top: 1px solid #8c8b8b;
-	width:100%;
-}
-
-.container-fluid {
-	padding-right:0px;
-}
-
-.row{
-	margin-right:	5px;
-}
-
-.card{
-	width:100%; 
-}
-
-.card-text{
-	font-size: 1em;
-}
-
-.card-body{
-	background-color: #dddddd;
-	padding-top:	10px;
-	padding-bottom:	10px;
-}
-
-.inGallery{
-	height:			240px;
-	width:			320px;
-}
-
-#logoHeader{
-	padding-top:	0px;
-	padding-bottom:	0px;
-}
-
-#statusSpan{
-	font-size:	1.2em;
-	margin-top:	5px;
-	float:		right;
-	color:		#AAAAAA;
-}
-
-.label{
-	color: #000;
-	font-size: 0.9em;
-}
-
-.d-shadow{
-	-webkit-box-shadow: 3px 3px 10px 0 rgba(50, 50, 50, 0.08);
-	-moz-box-shadow:    3px 3px 10px 0 rgba(50, 50, 50, 0.08);
-	box-shadow:         3px 3px 10px 0 rgba(50, 50, 50, 0.08);
-}
-
-.panel-info {
-	border-color: #5D9EC2;
-}
-
-.panel-info > .panel-heading{
-	    background-color: #A8D7F1;
-}
-
-a, a:hover {
-	color: #090350;
-	cursor: pointer;
-}
-
-#map-canvas img {
-  max-width: none;
-}
-
-body {
-    background-color: #eeeeee;
-    padding-top: 12px;
-}
-
-img {
-	margin-right: 2px;
-	margin-left: 0;
-	margin-bottom: 2px;
-}
-
-small {
-	font-weight: normal;
-}
-
-.shadowed-title{
-	text-shadow: 1px 1px 3px #A3A3A3;
-	margin-bottom:0;
-	margin-top:18px;
-	margin-right:20px;
-	font-size: 30px;
-	color: #272727;
-	cursor: pointer;
-}
-
-.jazzy{
-	font-family: 'Rock Salt', cursive;
-	font-size: 0.86em;
-	text-shadow: 1px 1px 2px #A1A1A1;
-}
-
-#map-canvas {
-	height: 400px;
-	width: auto;
-	margin: 0;
-	padding: 0
-	
-}
-
-.featherlight-content {
-		padding: 25px;
-		color: #000;
-		background: #000;
-}
-
-#wrapper {
-    width: 100%;
-	padding:10px;
-}
-
-#page-wrapper {
-    padding: 0 15px;
-    min-height: 568px;
-    background-color: #fff;
-}
-
-@media(min-width:768px) {
-    #page-wrapper {
-        position: inherit;
-        margin: 0 0 0 250px;
-        padding: 0 30px;
-        border-left: 1px solid #e7e7e7;
-    }
-}
-
-.btn-outline {
-    color: inherit;
-    background-color: transparent;
-    transition: all .5s;
-}
-
-.btn-primary.btn-outline {
-    color: #428bca;
-}
-
-.btn-success.btn-outline {
-    color: #5cb85c;
-}
-
-.btn-info.btn-outline {
-    color: #5bc0de;
-}
-
-.btn-warning.btn-outline {
-    color: #f0ad4e;
-}
-
-.btn-danger.btn-outline {
-    color: #d9534f;
-}
-
-.btn-primary.btn-outline:hover,
-.btn-success.btn-outline:hover,
-.btn-info.btn-outline:hover,
-.btn-warning.btn-outline:hover,
-.btn-danger.btn-outline:hover {
-    color: #fff;
-}
-
-@media all {
-	.lightbox { display: none; }
-	.fl-page h1,
-	.fl-page h3,
-	.fl-page h4 {
-		font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-		font-weight: 100;
-		letter-spacing: 1px;
-	}
-	.fl-page h1 { font-size: 110px; margin-bottom: 0.5em; }
-	.fl-page h1 i { font-style: normal; color: #ddd; }
-	.fl-page h1 span { font-size: 30px; color: #333;}
-	.fl-page h3 { text-align: right; }
-	.fl-page h3 { font-size: 15px; }
-	.fl-page h4 { font-size: 2em; }
-	.fl-page .jumbotron { margin-top: 2em; }
-	.fl-page .doc { margin: 2em 0;}
-	.fl-page .btn-download { float: right; }
-	.fl-page .btn-default { vertical-align: bottom; }
-
-	.fl-page .btn-lg span { font-size: 0.7em; }
-	.fl-page .footer { margin-top: 3em; color: #aaa; font-size: 0.9em;}
-	.fl-page .footer a { color: #999; text-decoration: none; margin-right: 0.75em;}
-	.fl-page .github { margin: 2em 0; }
-	.fl-page .github a { vertical-align: top; }
-	.fl-page .marketing a { color: #999; }
-
-	/* override default feather style... */
-	.fixwidth {
-		background: rgba(256,256,256, 0.8);
-	}
-	.fixwidth .featherlight-content {
-		padding: 5px;
-		color: #000;
-		background: #000;
-	}
-	.fixwidth .featherlight-close {
-		color: #fff;
-		background: #333;
-	}
-}
-@media(max-width: 768px){
-	.fl-page h1 span { display: block; }
-	.fl-page .btn-download { float: none; margin-bottom: 1em; }
-}
-
-/* The snackbar - position it at the bottom and in the middle of the screen */
-#snackbar {
-    visibility: hidden; /* Hidden by default. Visible on click */
-    min-width: 250px; /* Set a default minimum width */
-    margin-left: -125px; /* Divide value of min-width by 2 */
-    background-color: #333; /* Black background color */
-    color: #fff; /* White text color */
-    text-align: center; /* Centered text */
-    border-radius: 2px; /* Rounded borders */
-    padding: 16px; /* Padding */
-    position: fixed; /* Sit on top of the screen */
-    z-index: 10; /* Add a z-index if needed */
-    left: 50%; /* Center the snackbar */
-    bottom: 30px; /* 30px from the bottom */
-}
-
-/* Show the snackbar when clicking on a button (class added with JavaScript) */
-#snackbar.show {
-    visibility: visible; /* Show the snackbar */
-
-/* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
-However, delay the fade out process for 2.5 seconds */
-    -webkit-animation: fadein 1s, fadeout 1s 4s;
-    animation: fadein 1s, fadeout 1s 4s;
-}
-
-/* Animations to fade the snackbar in and out */
-@-webkit-keyframes fadein {
-    from {bottom: 0; opacity: 0;} 
-    to {bottom: 30px; opacity: 1;}
-}
-
-@keyframes fadein {
-    from {bottom: 0; opacity: 0;}
-    to {bottom: 30px; opacity: 1;}
-}
-
-@-webkit-keyframes fadeout {
-    from {bottom: 30px; opacity: 1;} 
-    to {bottom: 0; opacity: 0;}
-}
-
-@keyframes fadeout {
-    from {bottom: 30px; opacity: 1;}
-    to {bottom: 0; opacity: 0;}
-}
-
-
-#busCardBody {
-	padding: 0px;
-}
-
-#camerasCardBody, #dotcamerasCardBody, #parkingCardBody {
-	padding-top:15px;
-
-}
-
-
-#parkingCardBody {
-}
+.progress{
+	height: 3em;
+	width: 100%;
+	margin-bottom:6px;
+}
+
+.featherlight-inner, .featherlight-content, .featherlight{
+	z-index:5; !important
+}
+
+#map {
+  height: 600px;
+}
+
+hr {
+	border-top: 1px solid #8c8b8b;
+	width:100%;
+}
+
+.container-fluid {
+	padding-right:0px;
+}
+
+.row{
+	margin-right:	5px;
+}
+
+.card{
+	width:100%; 
+}
+
+.card-text{
+	font-size: 1em;
+}
+
+.card-body{
+	background-color: #dddddd;
+	padding-top:	10px;
+	padding-bottom:	10px;
+}
+
+.inGallery{
+	height:			240px;
+	width:			320px;
+}
+
+#logoHeader {
+	padding-top:	0px;
+	padding-bottom:	0px;
+}
+
+#logoHeader, #footer {
+	background-color: rgba(1, 1, 1, 0.04);
+}
+
+#statusSpan{
+	font-size:	1.2em;
+	margin-top:	5px;
+	float:		right;
+	color:		#AAAAAA;
+}
+
+.label{
+	color: #000;
+	font-size: 0.9em;
+}
+
+.d-shadow{
+	-webkit-box-shadow: 3px 3px 10px 0 rgba(50, 50, 50, 0.08);
+	-moz-box-shadow:    3px 3px 10px 0 rgba(50, 50, 50, 0.08);
+	box-shadow:         3px 3px 10px 0 rgba(50, 50, 50, 0.08);
+}
+
+.panel-info {
+	border-color: #5D9EC2;
+}
+
+.panel-info > .panel-heading{
+	    background-color: #A8D7F1;
+}
+
+a, a:hover {
+	color: #090350;
+	cursor: pointer;
+}
+
+#map-canvas img {
+  max-width: none;
+}
+
+body {
+    background-color: #eeeeee;
+    padding-top: 12px;
+}
+
+img {
+	margin-right: 2px;
+	margin-left: 0;
+	margin-bottom: 2px;
+}
+
+small {
+	font-weight: normal;
+}
+
+.shadowed-title{
+	text-shadow: 1px 1px 3px #A3A3A3;
+	margin-bottom:0;
+	margin-top:18px;
+	margin-right:20px;
+	font-size: 30px;
+	color: #272727;
+	cursor: pointer;
+}
+
+.jazzy{
+	font-family: 'Rock Salt', cursive;
+	font-size: 0.86em;
+	text-shadow: 1px 1px 2px #A1A1A1;
+}
+
+#map-canvas {
+	height: 400px;
+	width: auto;
+	margin: 0;
+	padding: 0
+	
+}
+
+.featherlight-content {
+		padding: 25px;
+		color: #000;
+		background: #000;
+}
+
+#wrapper {
+    width: 100%;
+	padding:10px;
+}
+
+#page-wrapper {
+    padding: 0 15px;
+    min-height: 568px;
+    background-color: #fff;
+}
+
+@media(min-width:768px) {
+    #page-wrapper {
+        position: inherit;
+        margin: 0 0 0 250px;
+        padding: 0 30px;
+        border-left: 1px solid #e7e7e7;
+    }
+}
+
+.btn-outline {
+    color: inherit;
+    background-color: transparent;
+    transition: all .5s;
+}
+
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
+}
+
+@media all {
+	.lightbox { display: none; }
+	.fl-page h1,
+	.fl-page h3,
+	.fl-page h4 {
+		font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+		font-weight: 100;
+		letter-spacing: 1px;
+	}
+	.fl-page h1 { font-size: 110px; margin-bottom: 0.5em; }
+	.fl-page h1 i { font-style: normal; color: #ddd; }
+	.fl-page h1 span { font-size: 30px; color: #333;}
+	.fl-page h3 { text-align: right; }
+	.fl-page h3 { font-size: 15px; }
+	.fl-page h4 { font-size: 2em; }
+	.fl-page .jumbotron { margin-top: 2em; }
+	.fl-page .doc { margin: 2em 0;}
+	.fl-page .btn-download { float: right; }
+	.fl-page .btn-default { vertical-align: bottom; }
+
+	.fl-page .btn-lg span { font-size: 0.7em; }
+	.fl-page .footer { margin-top: 3em; color: #aaa; font-size: 0.9em;}
+	.fl-page .footer a { color: #999; text-decoration: none; margin-right: 0.75em;}
+	.fl-page .github { margin: 2em 0; }
+	.fl-page .github a { vertical-align: top; }
+	.fl-page .marketing a { color: #999; }
+
+	/* override default feather style... */
+	.fixwidth {
+		background: rgba(256,256,256, 0.8);
+	}
+	.fixwidth .featherlight-content {
+		padding: 5px;
+		color: #000;
+		background: #000;
+	}
+	.fixwidth .featherlight-close {
+		color: #fff;
+		background: #333;
+	}
+}
+@media(max-width: 768px){
+	.fl-page h1 span { display: block; }
+	.fl-page .btn-download { float: none; margin-bottom: 1em; }
+}
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #333; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 10; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible; /* Show the snackbar */
+
+/* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 1s, fadeout 1s 4s;
+    animation: fadein 1s, fadeout 1s 4s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+
+#busCardBody, #weatherCardBody {
+	padding: 0px;
+}
+
+#camerasCardBody, #dotcamerasCardBody, #parkingCardBody {
+	padding-top:15px;
+
+}
+#logoHeader
+
+#parkingCardBody {
+}

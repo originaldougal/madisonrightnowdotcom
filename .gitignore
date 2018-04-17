@@ -1,0 +1,4 @@
+.htaccess
+manifest.webmanifest
+beta/fonts/*
+beta/dev/*
